@@ -1,0 +1,50 @@
+.shop-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    height: 50px;
+    margin-left: 2rem;
+    border-color: transparent;
+    box-sizing: border-box;
+}
+
+.profile:hover {
+    border-radius: 50%;
+    border: 2px solid var(--primary-orange);
+}
+
+.shop {
+    position: relative;
+}
+
+.notification {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--primary-orange);
+    color: white;
+    top: -15px;
+    right: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.notification-none {
+    display: none;
+}
+
+.profile,
+.shop {
+    cursor: pointer;
+}
+
+.profile img {
+    max-height: 100%;
+}

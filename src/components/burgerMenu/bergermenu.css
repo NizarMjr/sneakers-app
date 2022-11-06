@@ -1,0 +1,43 @@
+.berger-menu {
+    top: -15px;
+}
+
+.berger-icon {
+    cursor: pointer;
+    margin-right: 3rem;
+}
+
+.berger-lists {
+    max-width: 100%;
+    padding: 1rem;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: -7px;
+    z-index: 999;
+}
+
+.berger-lists .berger-list {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.berger-none {
+    display: none;
+}
+
+.berger-lists-none {
+    display: none;
+}
+
+.icon-close {
+    margin-top: 1rem;
+}
+
+@media (max-width:991px) {
+    .berger-none {
+        display: block;
+    }
+}
