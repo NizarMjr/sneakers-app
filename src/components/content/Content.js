@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { increaseQuantity, decreaseQuantity, toggleBasket, activeBasket, setImage, lightBoxShow } from "../../redux/actions/QuantityActions";
+import { increaseQuantity, decreaseQuantity, activeBasket, setImage, lightBoxShow } from "../../redux/actions/QuantityActions";
 import './content.css'
 const Content = () => {
     const number = useSelector(state => state.quantity);
